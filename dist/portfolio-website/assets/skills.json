@@ -1,0 +1,204 @@
+{
+    "web_development": [
+        {
+            "category": "backend",
+            "name": "Back End",
+            "skills": [
+                [
+                    {
+                        "name": "Django",
+                        "icon": "devicon-django-plain",
+                        "website": "https://www.djangoproject.com/"
+                    },
+                    {
+                        "name": "Flask",
+                        "icon": "devicon-flask-original",
+                        "website": "https://flask.palletsprojects.com/en/2.0.x/"
+                    }
+                ],
+                [
+                    {
+                        "name": "TypeScript",
+                        "icon": "devicon-typescript-plain",
+                        "website": "https://www.typescriptlang.org/"
+                    },
+                    {
+                        "name": "Node",
+                        "icon": "devicon-nodejs-plain",
+                        "website": "https://nodejs.org/en/"
+                    }
+                ],
+                [
+                    {
+                        "name": "Java",
+                        "icon": "devicon-java-plain",
+                        "website": "https://www.java.com/en/"
+                    },
+                    {
+                        "name": "OpenAPI",
+                        "website": "https://swagger.io/specification/"
+                    }
+                ]
+            ]
+        },
+        {
+            "category": "db_and_tools",
+            "name": "DBs & Tools",
+            "skills": [
+                [
+                    {
+                        "name": "SQL & PostgreSQL",
+                        "icon": "devicon-postgresql-plain",
+                        "website": "https://www.postgresql.org/"
+                    },
+                    {
+                        "name": "NoSQL & MongoDB",
+                        "icon": "devicon-mongodb-plain",
+                        "website": "https://www.mongodb.com/en"
+                    }
+                ],
+                [
+                    {
+                        "name": "docker",
+                        "icon": "devicon-docker-plain",
+                        "website": "https://www.docker.com/"
+                    },
+                    {
+                        "name": "AWS",
+                        "icon": "devicon-amazonwebservices-plain-wordmark",
+                        "website": "https://aws.amazon.com/en/"
+                    }
+                ],
+                [
+                    {
+                        "name": "Google Cloud",
+                        "icon": "devicon-googlecloud-plain",
+                        "website": "https://cloud.google.com/"
+                    },
+                    {
+                        "name": "GitHub Actions",
+                        "icon": "devicon-github-plain",
+                        "website": "https://github.com/"
+                    }
+                ]
+            ]
+        },
+        {
+            "category": "frontend",
+            "name": "Front End",
+            "skills": [
+                [
+                    {
+                        "name": "Angular",
+                        "icon": "devicon-angularjs-plain",
+                        "website": "https://angular.io/"
+                    },
+                    {
+                        "name": "React",
+                        "icon": "devicon-react-original",
+                        "website": "https://reactjs.org/"
+                    }
+                ],
+                [
+                    {
+                        "name": "HTML",
+                        "icon": "devicon-html5-plain",
+                        "website": "https://en.wikipedia.org/wiki/HTML5"
+                    },
+                    {
+                        "name": "SASS",
+                        "icon": "devicon-sass-plain",
+                        "website": "https://sass-lang.com/"
+                    }
+                ]
+            ]
+        }
+    ],
+    "photography": [
+        {
+            "category": "photo_editing",
+            "name": "Photo Editing",
+            "skills": [
+                [
+                    {
+                        "name": "Photoshop",
+                        "icon": "devicon-photoshop-plain",
+                        "website": "https://www.adobe.com/products/photoshop.html"
+                    },
+                    {
+                        "name": "Lightroom",
+                        "icon": "devicon-photoshop-plain",
+                        "website": "https://www.adobe.com/products/photoshop-lightroom.html"
+                    }
+                ]
+            ]
+        },
+        {
+            "category": "video_editing",
+            "name": "Video Editing",
+            "skills": [
+                [
+                    {
+                        "name": "Premiere Pro",
+                        "icon": "devicon-premierepro-plain",
+                        "website": "https://www.adobe.com/products/premiere.html"
+                    }
+                ]
+            ]
+        }
+    ],
+    "data_science": [
+        {
+            "category": "data_science",
+            "name": "Data Science",
+            "skills": [
+                [
+                    {
+                        "name": "Python",
+                        "website": "https://www.python.org/"
+                    },
+                    {
+                        "name": "Pandas",
+                        "website": "https://pandas.pydata.org/"
+                    },
+                    {
+                        "name": "BigQuery",
+                        "website": "https://cloud.google.com/bigquery"
+                    },
+                    {
+                        "name": "Apache Spark",
+                        "website": "https://spark.apache.org/"
+                    },
+                    {
+                        "name": "DuckDB",
+                        "website": "https://duckdb.org/"
+                    }
+                ]
+            ]
+        },
+        {
+            "category": "machine_learning",
+            "name": "Machine Learning",
+            "skills": [
+                [
+                    {
+                        "name": "TensorFlow",
+                        "website": "https://www.tensorflow.org/"
+                    },
+                    {
+                        "name": "PyTorch",
+                        "website": "https://pytorch.org/"
+                    },
+                    {
+                        "name": "Computer Vision",
+                        "website": "https://en.wikipedia.org/wiki/Computer_vision"
+                    },
+                    {
+                        "name": "Natural Language Processing",
+                        "website": "https://en.wikipedia.org/wiki/Natural_language_processing"
+                    }
+                ]
+            ]
+        }
+    ]
+}

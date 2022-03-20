@@ -1,0 +1,22 @@
+{
+    "contact_info": [
+        {
+            "name": "Location",
+            "title": "Berlin, Germany",
+            "icon": "fa-map-marker",
+            "link": "https://www.google.com/maps?q=Berlin"
+        },
+        {
+            "name": "Email",
+            "title": "nikolay.g.nik@gmail.com",
+            "icon": "fa-envelope",
+            "link": "mailto:nikolay.g.nik@gmail.com"
+        },
+        {
+            "name": "LinkedIn",
+            "title": "Nikolay Nikolov",
+            "icon": "fa-linkedin",
+            "link": "https://www.linkedin.com/in/nikolaygnik/"
+        }
+    ]
+}
