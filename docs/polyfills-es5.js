@@ -4210,9 +4210,9 @@ if (DESCRIPTORS && typeof NativeSymbol == 'function' && (!('description' in Nati
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com/portfolio-website/node_modules/@angular-devkit/build-angular/src/webpack/es5-polyfills.js */"voQr");
-__webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com/portfolio-website/node_modules/@angular-devkit/build-angular/src/webpack/es5-jit-polyfills.js */"aYjs");
-module.exports = __webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com/portfolio-website/src/polyfills.ts */"hN/g");
+__webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com-frontend/node_modules/@angular-devkit/build-angular/src/webpack/es5-polyfills.js */"voQr");
+__webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com-frontend/node_modules/@angular-devkit/build-angular/src/webpack/es5-jit-polyfills.js */"aYjs");
+module.exports = __webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com-frontend/src/polyfills.ts */"hN/g");
 
 
 /***/ }),

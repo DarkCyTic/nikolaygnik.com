@@ -20,7 +20,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com/portfolio-website/src/main.ts */"zUnb");
+module.exports = __webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com-frontend/src/main.ts */"zUnb");
 
 
 /***/ }),

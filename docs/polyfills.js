@@ -4122,8 +4122,8 @@ module.exports = getBuiltIn('document', 'documentElement');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com/portfolio-website/src/polyfills.ts */"hN/g");
-module.exports = __webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com/portfolio-website/node_modules/@angular-devkit/build-angular/src/webpack/jit-polyfills.js */"rZy+");
+__webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com-frontend/src/polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /Users/niko/Documents/development/nikolaygnik.com-frontend/node_modules/@angular-devkit/build-angular/src/webpack/jit-polyfills.js */"rZy+");
 
 
 /***/ }),
