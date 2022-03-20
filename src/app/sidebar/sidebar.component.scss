@@ -1,0 +1,25 @@
+nav {
+    background: black;
+    height: 100% !important;
+    position: fixed !important;
+    max-height: 100vh;
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+
+            a {
+                color: whitesmoke !important;
+                padding: 20px;
+                display: block;
+            }
+
+            .activated {
+                background-color: #00a8ff;
+            }
+        }
+    }
+}

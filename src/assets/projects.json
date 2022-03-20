@@ -1,0 +1,124 @@
+{
+    "projects": [
+        {
+            "id": "Belote_Scorer",
+            "name": "Belote Scorer",
+            "role": "Creator and Developer",
+            "short_description": "An android app for writing the scores of the popular bulgarian card game - Belote.",
+            "skills": "Android development, Data Structures, Design",
+            "description": "Card games are world-wide phenomenon and Bulgaria makes no exception. Or maybe it does, as we play a card game called Belote, which is probably our third national sport right after wrestling and volleyball. It wouldn't be an exaggeration to say that most of us were introduced to Belote before we could write or read.\n        \n        Playing Belote, however, requires writing down points and keeping an eye on the overall scores. This of course creates the need for a paper and a pen and these are almost extinct nowadays.\n        \n        On the opposite, not having a smartphone nearby is almost criminal. That, combined with the motivation to learn mobile app development, pushed me to start writing the BeloteScorer app. In the process I learned Adobe XD, which helped me create the design and interaction scheme of the app. Furthermore, with the help of a voice actor, I was able to produce a video ad to go with the app.\n        \n        In the end the project was quite challenging, but turned out to be super useful, because of the bragging rights you get when you win a game (which automatically saved in your history).",
+            "start_date": "2018-03-19T22:00:00.000Z",
+            "end_date": "2018-06-04T21:00:00.000Z",
+            "preview_image": "https://farm5.staticflickr.com/4847/45090220965_19090e8e5a_z.jpg",
+            "photoset_id": "72157703896200555",
+            "date": "2018-11-22T21:45:53.610Z",
+            "links": [
+                {
+                    "name": "Play Store",
+                    "link_url": "https://play.google.com/store/apps/details?id=com.nikolaynikolov.belotescorer"
+                },
+                {
+                    "name": "Promo video on YouTube"
+                }
+            ],
+            "images": [
+                "https://live.staticflickr.com/4910/31062782807_eeda684be1_b.jpg",
+                "https://live.staticflickr.com/4840/46001732311_b223ccd616_b.jpg",
+                "https://live.staticflickr.com/4839/46001733501_4befcb11aa_b.jpg",
+                "https://live.staticflickr.com/4812/46001725801_9190183bf1_b.jpg",
+                "https://live.staticflickr.com/4834/46001730291_63112985e6_b.jpg",
+                "https://live.staticflickr.com/4871/46001727141_9618854f9e_b.jpg",
+                "https://live.staticflickr.com/4868/46001728591_d5f5741788_b.jpg",
+                "https://live.staticflickr.com/4847/45090220965_19090e8e5a_b.jpg"
+            ]
+        },
+        {
+            "id": "Debate_Club",
+            "name": "Debate club",
+            "role": "Club founder, Content creator",
+            "short_description": "A debate club, which I founded in my high school and managed till my graduation.",
+            "skills": "Leadership, Club management, Debating",
+            "description": "As everybody else, I too love arguing with people and once I was introduced to debates, \"arguing\" became a passion. \n\n        Unfortunately going to debate clubs in universities, although good for networking, was not optimal for a high school student. It was in these university debate clubs that I got to know the debate pioneers of Bulgaria and they inspired me to create a debate club at my own high school - 73. Vladislav Gramatik. With the help of my friends and more experienced debaters, we were able to organize weekly meetings and more students joined!\n        \n        It helped me improve my debating and organizational skills and I was surprised how many students were motivated to join the club. \n        \n        I graduated a couple of months after founding the club and it has since been led by the 'next generation'. \n        \n        It is still in its early stages as a school club, however its impact on the students' communication and critical thinking skills can already be felt.\n        \n        The club of course wouldn't exist without the support of the school's administration, which made it all possible! ",
+            "start_date": "2018-02-14T22:00:00.000Z",
+            "end_date": "2018-07-29T21:00:00.000Z",
+            "preview_image": "https://farm5.staticflickr.com/4804/45090220165_af62b9f99e_z.jpg",
+            "photoset_id": "72157703896441435",
+            "date": "2018-11-23T16:03:15.939Z",
+            "links": [],
+            "images": [
+                "https://live.staticflickr.com/4804/45090220165_af62b9f99e_b.jpg",
+                "https://live.staticflickr.com/4829/31062786447_e8f8a9c30a_b.jpg"
+            ]
+        },
+        {
+            "id": "#UniTag",
+            "name": "#UniTag",
+            "role": "Co-organizer, website developer and content creator",
+            "short_description": "An educational event aiming to help high school students to answer the questions - What and where to study?",
+            "skills": "Web development, Design, Copywriting, Team work, Project and event management",
+            "description": "Upon graduating high school, everyone faces the two big questions - what and where to study. When you add the even harder question - whether to study abroad, the combination becomes a stress bomb for every student. \n        \n        This is the bomb we defused by organizing one of the biggest events in Sofia in 2018 - #UniTag (German for UniversityDay). #UniTag is an event that informs about the university education in Germany and Austria. \n        \n        That doesn't sound original, as there have been such events in the past, but what truly differentiates it is that all speakers are still students at the university/in the courses they represent. This enables them to give the event visitors, mostly students, but parents as well, the most up-to-date information. Moreover, it means that the tricks and trips they used are still valuable. \n        \n        The event had more than 200 visitors on sight, but it's most valuable impact was, of course, the networking. Personally knowing someone, who studies your dream course, at your dream university is priceless, but having multiple contacts from multiple cities or even countries is what gives you the best insight. \n        \n        The main focus of my contribution was in the website and design department, but I was also deeply involved with finding speakers and sponsors for the event. \n        \n        In the end, this is the biggest event I have organized to date and definitely the most challenging project in terms of organization and project management, which improved my team work skills and long term project management. Fortunately, I wasn't alone in this endeavor and my without the joined effort of the team, the event would have never been possible! Kudos to them! ",
+            "start_date": "2018-05-19T21:00:00.000Z",
+            "end_date": "2018-10-29T22:00:00.000Z",
+            "preview_image": "https://farm5.staticflickr.com/4907/45277907794_67e74df7e4_z.jpg",
+            "photoset_id": "72157703896525645",
+            "links": [
+                {
+                    "name": "Website",
+                    "link_url": "https://unitagbg.com/"
+                },
+                {
+                    "name": "Facebook event"
+                }
+            ],
+            "date": "2018-11-23T15:43:43.998Z",
+            "images": [
+                "https://live.staticflickr.com/4907/45277907794_67e74df7e4_b.jpg",
+                "https://live.staticflickr.com/4840/45277608884_cc008a1da0_b.jpg",
+                "https://live.staticflickr.com/4817/46001738011_560b4b40f0_b.jpg",
+                "https://live.staticflickr.com/4873/45090217765_0d5641f57b_b.jpg",
+                "https://live.staticflickr.com/4860/45277611044_1cbb626527_b.jpg",
+                "https://live.staticflickr.com/4846/45090218595_2358a6d8b6_b.jpg"
+            ]
+        },
+        {
+            "id": "Portfolio_Website",
+            "name": "Portfolio Website",
+            "role": "Web developer, Content creator",
+            "short_description": "Literally this website - a personal portfolio website for me - Nikolay Nikolov.",
+            "skills": "Web development, Angular, Design, Data Structures, MonogDB, Express, Node.js",
+            "description": "One of my latest projects is actually this website. I had always been wanting to implement Angular in a real-world project and a portfolio website was the perfect candidate (see what I did there). \n\n        Angular's component-based architecture makes it easy to develop components separately, but it also makes their interaction more structured. This project was also my first serious TypeScript endeavor and I have to say that type checking indeed makes the front end a more friendly place. \n\n        This website's content is stored in a mongoDB database and the back end is based on Express, so it is actually a small MEAN project. \n\n        One of the nicest things about building your own website, apart from the bragging rights you get, is the freedom to just try things out. It was through experimentation that the Timeline in the About page was born and I think it is one of the highlights of the whole website. \n\n        Overall I would recommend building a portfolio website to everyone, not just software developers. Why? Well, it pushes you to extend your knowledge in domains (see what I did there) such as design and programming and it's an added bonus to your CV to show you go the extra mile. ",
+            "start_date": "2018-11-14T22:00:00.000Z",
+            "end_date": "2018-12-24T22:00:00.000Z",
+            "preview_image": "https://farm5.staticflickr.com/4810/44199626290_a25ec96135_z.jpg",
+            "photoset_id": "72157700677284402",
+            "date": "2018-11-23T15:55:34.279Z",
+            "links": [],
+            "images": [
+                "https://live.staticflickr.com/4810/44199626290_a25ec96135_b.jpg"
+            ]
+        },
+        {
+            "id": "Comics",
+            "name": "Comics",
+            "role": "Designer, Content creator",
+            "short_description": "A comics aiming to demonstrate the unique Bavarian language using famous comics characters.",
+            "skills": "Design, Storytelling, Self-discipline",
+            "description": "This is one of my earlier long-term design and content creation projects and the hardest challenge I had ever took on at the time.\n        \n        So what is it exactly? Well, I participated in the Bavarian competition 2016 with the theme 'Bavarian language' (originally in German - Bayerische Mundart). The rules were simple - think of a creative way of expressing yourself in the Bavarian language.\n        \n        A few long nights later, I finally figured it out - why don't I write a comics?! Easier said than done, though, for my Photoshop skills were far from enough to draw scenes and characters. My 'Google Search' skills, however, were on point and so I focused on my strengths.\n        \n        First, I wrote the story line and then searched for comics which include scenes that I could reuse. More often than not, I had to further manipulate them to fit the story, but in the end it actually didn't look that 'outsourced'. \n        \n        Well, that's not for me to say, so check out the comics bellow and decide for yourself!",
+            "start_date": "2016-02-09T22:00:00.000Z",
+            "end_date": "2016-03-09T22:00:00.000Z",
+            "preview_image": "https://farm5.staticflickr.com/4916/44185846980_689b5fba4d_z.jpg",
+            "photoset_id": "72157702397296491",
+            "links": [],
+            "date": "2018-11-25T17:12:35.522Z",
+            "images": [
+                "https://live.staticflickr.com/4916/44185846980_689b5fba4d_b.jpg",
+                "https://live.staticflickr.com/4863/45952241762_b61197432b_b.jpg",
+                "https://live.staticflickr.com/4870/44185849230_f5fb6cbfbe_b.jpg",
+                "https://live.staticflickr.com/4905/45952246682_bbefd40217_b.jpg",
+                "https://live.staticflickr.com/4838/45090198745_4ca5aefe00_b.jpg",
+                "https://live.staticflickr.com/4905/46001719931_35b995f909_b.jpg",
+                "https://live.staticflickr.com/4822/46001724111_41478f5e14_b.jpg"
+            ]
+        }
+    ]
+}

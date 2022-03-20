@@ -1,0 +1,23 @@
+<div class="container no-max-width">
+  <div class="row">
+    <div class="col-12 text-center mt-5 mb-5">
+      <h1 class="title_text">
+        Projects
+      </h1>
+      <h5 class="subtitle_text">
+        These are all my projects!
+      </h5>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-6 col-md-3 project-preview-column text-center" *ngFor="let project of projects$">
+      <a routerLink="/projects/{{project.id}}" class="project-preview-div d-flex justify-content-center align-items-center">
+        <div class="project-preview-background w-100 h-100" [ngStyle]="{'background-image': 'url(' + project.preview_image + ')'}">
+        </div>
+        <div class="project-preview-header">
+          <p class="project-preview-name m-0">{{ project.name }}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

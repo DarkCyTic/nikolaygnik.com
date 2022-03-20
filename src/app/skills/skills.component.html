@@ -1,0 +1,33 @@
+<div *ngIf="skills" id="skills-wrapper" class="wrapper">
+  <div class="container d-flex justify-content-center align-items-center h-100 w-100 m-0 no-max-width">
+    <div class="row w-100">
+      <div class="col-12">
+        <div class="row mt-5 mb-5">
+          <div class="col-12 text-center">
+            <h1 class="title_text">
+              {{ title }}
+            </h1>
+            <h5 class="subtitle_text">
+              {{ subTitle }}
+            </h5>
+          </div>
+        </div>
+        <div id="skills-categories" class="row">
+          <div class="skill-category" class="col-12 col-md-6 col-lg-4 text-center" *ngFor="let category of skills">
+            <h2 class="title_text mb-5 category_title">
+              <span>{{ category['name'] }}</span>
+            </h2>
+            <div class="row mb-5" *ngFor="let skill_pair of category['skills']">
+                <div class="col-6" *ngFor="let skill of skill_pair">
+                  <a href="{{ skill['website'] }}" target="_blank">
+                    <i class="{{ skill['icon'] }}"></i>
+                    <h5 class="mt-2 subtitle_text">{{ skill['name'] }}</h5>
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

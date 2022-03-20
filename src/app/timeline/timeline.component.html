@@ -1,0 +1,12 @@
+<div id="timeline">
+  <ul class="timeline-events">
+    <app-timeline-event *ngFor="let event of events$" [event_data$]="event">
+    
+    </app-timeline-event>
+  </ul>
+  <ul class="timeline-years" [ngStyle]="{'padding-left': (paddingLeft$) + 'rem', 'width': (width$ * (num_years$ + 1)) + 'rem'}">
+    <li *ngFor="let year of years$" [ngStyle]="{'width': (width$) + 'rem' }">
+      {{ year }}
+    </li>
+  </ul>
+</div>

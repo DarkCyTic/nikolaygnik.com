@@ -1,0 +1,109 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+// Colors
+$primary-color: #e7e8ea;
+$secondary-color: grey;
+$accent-color: #e3171a;
+$background-color: #060606;
+
+// Fonts
+$primary-font: 'Raleway', sans-serif;
+$secondary-font: 'Montserrat', sans-serif;
+
+body {
+    margin: 0;
+    font-family: $secondary-font;
+    height: 100vh;
+}
+
+#container {
+   display: grid;
+   grid-template-columns: 70px auto;
+   height: 100%;
+
+   #content {
+        width: 100%;
+        height: 100%;
+        background-color: $background-color;
+   }
+
+}
+
+.primary-col{
+    color: $primary-color;
+}
+
+.secondary-col{
+    color: $secondary-color;
+}
+
+.accent-col{
+    color: $accent-color;
+}
+
+.background-color{
+    background-color: $background-color;
+}
+
+.accent-bg-col{
+    background-color: $accent-color;
+}
+
+.title_text{
+    color: $primary-color;
+    font-family: $primary-font;
+    font-weight: 800;
+}
+
+.subtitle_text{
+    color: $secondary-color;
+    font-family: $secondary-font;
+}
+
+.no-max-width{
+    max-width: none;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+
+.btn-outline-primary{
+    border: 2px solid $accent-color !important;
+    background-color: transparent!important;
+    color: $accent-color!important;
+}
+
+i{
+    transition: all 0.5s ease;
+}
+
+i:hover{
+    color: $accent-color !important;
+    transform: scale(1.5) translateY(-10px);
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgb(30, 30, 30);
+}
+
+p{
+    white-space: pre-line !important;
+}

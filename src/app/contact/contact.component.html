@@ -1,0 +1,12 @@
+<div class="container d-flex justify-content-center align-items-center h-100 w-100 m-0 no-max-width">
+  <div class="row w-100 justify-content-start align-self-center">
+    <div *ngFor="let info of contactInfo$" class="col-12 col-md-4 d-flex align-items-center">
+      <div class="w-100 justify-content-start align-self-center text-center">
+        <a href="{{ info['link'] }}" target="__blank">
+          <i class="fa {{ info['icon'] }} fa-3x primary-col"></i>
+          <h5 class="subtitle_text">{{ info['title'] }}</h5>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

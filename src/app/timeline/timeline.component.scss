@@ -1,0 +1,56 @@
+$grid-width: 7rem;
+
+#timeline ul{
+    padding: 0;
+}
+
+#timeline{
+    position: relative;
+    display: initial;
+}
+
+@media only screen and (min-width: 1200px){
+    #timeline{
+        display: initial;
+    }
+}
+
+.timeline-event{
+    display: inline-block;
+}
+
+.timeline-events {
+    position: relative;
+    margin-top: 500px;
+    bottom: 2.3rem;
+	padding: 0;
+	list-style: none;
+	white-space: nowrap;
+	/* Fix display: inline-block spacing issue */;
+	font-size: 0;
+}
+
+.timeline-years{
+    position: relative;
+    bottom: 0px;
+    margin-top: 150px;
+    list-style: none;
+    border-top: 1px solid rgba(105,105, 105, 0.3);
+}
+
+.timeline-years li{
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    top: -12px;
+    color: white;
+    text-indent: -17px;
+}
+
+:host{
+    padding-right: 50px;
+    padding-left: 50px;
+    position: initial;
+    width: 80vw;
+    overflow-x: scroll;
+}

@@ -1,0 +1,95 @@
+#about_me_text{
+    max-width: 100%;
+}
+
+// $grid-width: 12rem;
+// $grid-height: 0.5rem;
+// $max-events: 50;
+
+// #about_me_text{
+//     padding-left: 10%;
+//     padding-right: 10%;
+// }
+
+// #about_me_timeline ul{
+//     padding: 0;
+// }
+
+// @for $i from 0 through $max-events {
+//     .timeline-event-#{$i} {
+//         width: ($grid-width * $i);
+//     }
+
+//     .timeline-event-#{$i}-1{
+//         width: ($grid-width * $i) + ($grid-width / 10);
+//     }
+//     .timeline-event-#{$i}-2{
+//         width: ($grid-width * $i) + ($grid-width / 5);
+//     }
+//     .timeline-event-#{$i}-3{
+//         width: ($grid-width * $i) + ($grid-width / 3);
+//     }
+//     .timeline-event-#{$i}-4{
+//         width: ($grid-width * $i) + ($grid-width / 2.5);
+//     }
+//     .timeline-event-#{$i}-5{
+//         width: ($grid-width * $i) + ($grid-width / 2);
+//     }
+        
+//     @if $i == 1{
+//         .timeline-events li:nth-child(1){
+//             width: ($grid-width * $i) + ($grid-width * 1.5);
+//         }
+//     }
+// }
+
+// @for $i from 1 through $max-events {
+//     .timeline-events li:nth-child(#{$i}) { 
+//         bottom: #{((($grid-height * 2) * ($i - 1)))};
+//         left: $grid-width * $i;
+//     }
+// }
+
+// .timeline-events li{
+//     display: inline-block;
+//     position: absolute;
+// }
+
+// .timeline-events {
+// 	top: 170px;
+// 	padding: 0;
+// 	list-style: none;
+// 	white-space: nowrap;
+// 	/* Fix display: inline-block spacing issue */;
+// 	font-size: 0;
+// }
+
+// .timeline-years{
+//     padding-left: $grid-width * 1.5 !important;
+//     position: relative;
+//     margin: 0;
+//     margin-top: 150px;
+//     list-style: none;
+//     border-top: 1px solid rgba(105,105, 105, 0.3);
+// }
+
+// .timeline-years li{
+//     text-align: left;
+//     display: inline-block;
+//     position: relative;
+//     width: $grid-width;
+//     top: -12px;
+//     color: white;
+//     text-indent: -17px;
+// }
+
+// .timeline-events li:before {
+// 	position: absolute;
+//     left: 0;
+//     background-color: white;
+// 	bottom: -36px;
+// 	height: 8px;
+// 	border-radius: 8px;
+//     content: ' ';
+//     width: 100%;
+// }

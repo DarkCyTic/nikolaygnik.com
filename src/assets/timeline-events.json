@@ -1,0 +1,64 @@
+{
+    "events": [
+        {
+            "start_date": "07/01/2012",
+            "end_date": "06/01/2017",
+            "name": "High School at 73. Vladislav Gramatik",
+            "role": "Student"
+        },
+        {
+            "start_date": "01/01/2017",
+            "end_date": "06/01/2017",
+            "name": "School's debate club",
+            "role": "Founder"
+        },
+        {
+            "start_date": "09/01/2017",
+            "end_date": "04/01/2021",
+            "name": "Technical University Berlin",
+            "role": "Business Informatics B.Sc."
+        },
+        {
+            "start_date": "06/01/2018",
+            "end_date": "04/01/2020",
+            "name": "Perfacct UG",
+            "role": "Software Developer"
+        },
+        {
+            "start_date": "09/01/2018",
+            "end_date": "09/01/2020",
+            "name": "Deutschlandstipendium/Germany Scholarship",
+            "role": "University scholar"
+        },
+        {
+            "start_date": "05/01/2020",
+            "end_date": "12/31/2021",
+            "name": "Twilio",
+            "role": "Software Engineer Intern"
+        },
+        {
+            "start_date": "09/01/2021",
+            "end_date": "06/30/2022",
+            "name": "University of Amsterdam",
+            "role": "Data Science M. Sc."
+        },
+        {
+            "start_date": "01/01/2022",
+            "end_date": "03/31/2022",
+            "name": "Viqal",
+            "role": "Data Science Intern"
+        },
+        {
+            "start_date": "01/01/2022",
+            "end_date": "03/31/2022",
+            "name": "Influ.AI",
+            "role": "Software Engineer"
+        },
+        {
+            "start_date": "02/01/2022",
+            "end_date": "06/30/2022",
+            "name": "Orbisk",
+            "role": "AI & Data Science Intern - Visual Weight Estimation Master's Thesis"
+        }
+    ]
+}

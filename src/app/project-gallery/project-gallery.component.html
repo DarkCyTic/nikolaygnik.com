@@ -1,0 +1,17 @@
+<div id="gallery-container" class="container h-100 no-max-width d-flex justify-content-center align-items-center">
+  <div class="row w-100">
+    <div class="col-12">
+      <div class="image-wrapper-div" (clickOutside)="onClickedOutside($event)">
+        <div class="image-div">
+          <div [ngClass]="{'hide-navigation': current_image_index$ == 0}" class="gallery-navigation text-left d-flex align-items-center" id="previous-image-button" (click)="previous_image()">
+            <i class="fa fa-arrow-left fa-3x"></i>
+          </div>
+          <img class="gallery-image" [src]="current_image" alt="">
+          <div [ngClass]="{'hide-navigation': current_image_index$ >= max_index$}" class="gallery-navigation text-right d-flex align-items-center" id="next-image-button" (click)="next_image()">
+            <i class="fa fa-arrow-right fa-3x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

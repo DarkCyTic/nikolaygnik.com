@@ -1,0 +1,19 @@
+<li class="timeline-event" 
+  [ngStyle]="{'width': (width$) + 'rem', 
+  'left': (left$) + 'rem', 
+  'bottom': (bottom$) + 'rem',
+  'background-color': color$ }" 
+  [ngClass]="{'first_event': start_year$ < first_Year$, 
+  'last_event': end_year$ > last_Year$}">
+
+  <div class="event_headers">
+    <h1 class="event_date secondary-col">{{ start_year$ }} - {{ end_year$ }}</h1>
+    <br>
+    <h1 class="event_name title_text" [ngStyle]="{'color': color$ }">{{ name$ }}</h1>
+    <br>
+    <h1 class="event_role title_text">{{ role$ }}</h1>
+  </div>
+
+  <div class="event_line" [ngStyle]="{'background-color': color$ }"></div>
+
+</li>

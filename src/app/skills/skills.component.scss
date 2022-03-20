@@ -1,0 +1,29 @@
+@import '../../styles.scss';
+
+#skills-categories{
+    max-width: 1300px;
+    margin: auto;
+}
+
+#skills-categories i{
+    font-size: 5em !important;
+    display: inline-block;
+}
+
+.category_title span {
+    line-height: 1.5em;
+    position: relative;
+    position: relative;
+  }
+
+.category_title span:after {
+    content:' ';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 2rem;
+    border: 2px solid $primary-color;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    transform: translateX(-50%);
+}

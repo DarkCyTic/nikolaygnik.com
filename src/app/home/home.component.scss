@@ -1,0 +1,58 @@
+@import "../../styles.scss";
+
+#home-wrapper{  
+    background-image:url('https://farm5.staticflickr.com/4892/44013049430_792a001d0e_k.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-height: 100vh;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+// https://codepen.io/davekilljoy/pen/wHAvb
+
+.custom-button {
+    position: relative;
+    height: 45px;
+    width: 150px;
+    margin: 10px 7px;
+    padding: 5px 5px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    outline: 0;
+    overflow:hidden;
+    background: none;
+    z-index: 1;
+    cursor: pointer;
+    transition:         0.08s ease-in;
+    -o-transition:      0.08s ease-in;
+    -ms-transition:     0.08s ease-in;
+    -moz-transition:    0.08s ease-in;
+    -webkit-transition: 0.08s ease-in;
+    border: 2px solid $accent-color !important;
+    background-color: transparent !important;
+    color: $accent-color !important;
+}
+  
+.fill:hover { 
+    color: whitesmoke !important;
+}
+
+.fill:before {
+    content: "";
+    position: absolute;
+    background: $accent-color !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: top 0.09s ease-in;
+    transition: top 0.09s ease-in;
+}
+
+.fill:hover:before {
+    top: 0;
+}

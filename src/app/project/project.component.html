@@ -1,0 +1,63 @@
+<div #parent>
+    <div *ngIf="project$" class="container justify-content-center no-max-width m-0">
+        <div id="project-heading-row" class="row justify-content-start align-self-center mt-5">
+            <div class="col-12 d-flex align-items-center">
+                <div class="w-100 justify-content-center align-self-center text-center">
+                    <h1 class="title_text project_title">
+                        <span>{{ name }}</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div id="project-subheading-row" class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-8">
+                <div class="w-100 justify-content-center align-self-center text-center">
+                    <h5 *ngIf="short_description?.length" class="subtitle_text">
+                        {{ short_description }}
+                    </h5>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="role?.length > 0 || links?.length > 0" id="project-details-row" class="row justify-content-center align-self-center mt-5">
+            <div class="col-12 col-sm-10 col-md-8 text-left secondary-col">
+                <h5>
+                    Time: {{ start_date }} - {{ end_date }}
+                </h5>
+                <h5 *ngIf="role?.length > 0">
+                    Role: {{ role }}
+                </h5>
+                <h5 *ngIf="links?.length > 0">
+                    Links:
+                    <ul>
+                        <li *ngFor="let link of links">
+                            <a href="{{ link.link_url }}" target="_blank">{{ link.name }}</a>
+                        </li>
+                    </ul>
+                </h5>
+            </div>
+        </div>
+        <div *ngIf="description?.length > 0" id="project-description-row" class="row justify-content-center align-self-center mt-5">
+            <div class="col-12 col-sm-10 col-md-8 text-left primary-col">
+                <p>
+                    {{ description }}
+                </p>
+            </div>
+        </div>
+        <div *ngIf="images?.length > 0" id="project-album-row" class= "row mt-5">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <h2 class="title_text">Project photos</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div *ngFor="let image of images; let i = index" class="col-6 col-sm-4 col-md-3 project-image-column" (click)="showGallery(i)">
+                        <a class="d-flex justify-content-center align-items-center">
+                            <img src="{{ image }}" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
